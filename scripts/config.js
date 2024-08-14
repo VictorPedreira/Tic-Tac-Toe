@@ -52,6 +52,7 @@ function darkmode() {
         overlayColorElement.style.color = 'white';
         symbolcolor.style.color = 'rgb(140, 0, 255)';
         symbolocolor.style.color = 'rgb(140, 0, 255)';
+        
     } else {
         bodyConfigurationElement.style.backgroundColor = 'rgb(247, 239, 247)';
         mainHeaderColor.style.backgroundColor = 'rgb(140, 0, 255)';
