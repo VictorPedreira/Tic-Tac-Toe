@@ -11,13 +11,17 @@
     <link rel="stylesheet" href="styles/overlays.css">
     <link rel="stylesheet" href="styles/configuration.css">
     <link rel="stylesheet" href="styles/game.css">
+    <link rel="stylesheet" href="styles/darkmode.css">
     <script src="scripts/config.js" defer></script>
     <script src="scripts/game.js" defer></script>
     <script src="scripts/app.js" defer></script>
 </head>
-<body>
+<body id="colorConfig">
     <div id="backdrop"></div>
     <header id="main-header">
+        <div class="trilho" id="trilho">
+            <div class="indicador" id="bodybackground"></div>
+        </div>
         <h1>Play Tic, Tac, Toe</h1>
         <p>Built with HTML, CSS, JavaScript by Victor Pedreira</p>
     </header>
@@ -38,7 +42,7 @@
         </aside>
         <section id="game-configuration">
             <ol>
-                <li>
+                <li id="Colorset1">
                     <article id="player-1-data">
                         <h2>Player 1</h2>
                         <h3>PLAYER NAME</h3>
@@ -46,7 +50,7 @@
                         <button class="btn btn-alt" id="edit-player-1-btn" data-playerid="1">Edit</button>
                     </article>
                 </li>
-                <li>
+                <li id="Colorset2">
                     <article id="player-2-data">
                         <h2>Player 2</h2>
                         <h3>PLAYER NAME</h3>
@@ -66,17 +70,17 @@
           
             <p>It's your turn <span id="active-player-name">PLAYER NAME</span>!</p>
             <ol id="game-board">
-                <li></li>
-                <li></li>
-                <li></li>
+                <li data-col="1" data-row="1"></li>
+                <li data-col="2" data-row="1"></li>
+                <li data-col="3" data-row="1"></li>
 
-                <li></li>
-                <li></li>
-                <li></li>
+                <li data-col="1" data-row="2"></li>
+                <li data-col="2" data-row="2"></li>
+                <li data-col="3" data-row="2"></li>
 
-                <li></li>
-                <li></li>
-                <li></li>
+                <li data-col="1" data-row="3"></li>
+                <li data-col="2" data-row="3"></li>
+                <li data-col="3" data-row="3"></li>
             </ol>
         </section>
     </main>

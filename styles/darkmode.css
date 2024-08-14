@@ -1,0 +1,30 @@
+.trilho{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(44, 1, 80);
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+    left: 0;
+    transform: .5s;
+}
+
+.trilho .indicador{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(140, 0, 255);
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.darkm{
+    background-color: rgb(130, 0, 236);
+}
+
+.trilho.darkm .indicador {
+    left: 50px;
+    background-color: rgb(40, 0, 73);
+}
