@@ -25,8 +25,10 @@ const mainHeaderColor = document.getElementById('main-header');
 const BtnConfigColor = document.getElementById('start-game-btn');
 const ColorPlayerConfig1 = document.getElementById('Colorset1');
 const ColorPlayerConfig2 = document.getElementById('Colorset2');
-const hoverbtncolor = document.getElementById('btn:hover');
+const btncolor = document.getElementById('buttonconfirm');
 const overlayColorElement = document.getElementById('config-overlay');
+const symbolcolor = document.querySelector('.play-symbol');
+const symbolocolor = document.getElementById('obutton');
 
 const playerConfigOverlayElement = document.getElementById('config-overlay');
 const backdropElement = document.getElementById('backdrop');

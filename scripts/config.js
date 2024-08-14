@@ -37,15 +37,21 @@ function savePlayerConfig(event){
 function darkmode() {
 
     if (isopen == false){
-        bodyConfigurationElement.style.backgroundColor = '#111111';
+        bodyConfigurationElement.style.backgroundColor = 'rgb(31, 30, 31)';
         mainHeaderColor.style.backgroundColor = 'rgb(71, 0, 129)';
         BtnConfigColor.style.backgroundColor = 'rgb(71, 0, 129)';
         BtnConfigColor.style.border = 'rgb(71, 0, 129)';
-        ColorPlayerConfig1.style.backgroundColor = '#818181';
-        ColorPlayerConfig2.style.backgroundColor = '#818181';
-        overlayColorElement.style.backgroundColor = '#111111';
+        ColorPlayerConfig1.style.backgroundColor = 'rgb(39, 39, 39)';
+        ColorPlayerConfig2.style.backgroundColor = 'rgb(39, 39, 39)';
+        ColorPlayerConfig1.style.color = 'white';
+        ColorPlayerConfig2.style.color = 'white';
+        btncolor.style.backgroundColor = 'rgb(71, 0, 129)';
+        btncolor.style.border = 'rgb(71, 0, 129)';
+        btncolor.style.color = 'white';
+        overlayColorElement.style.backgroundColor = 'rgb(31, 30, 31)';
         overlayColorElement.style.color = 'white';
-        
+        symbolcolor.style.color = 'rgb(140, 0, 255)';
+        symbolocolor.style.color = 'rgb(140, 0, 255)';
     } else {
         bodyConfigurationElement.style.backgroundColor = 'rgb(247, 239, 247)';
         mainHeaderColor.style.backgroundColor = 'rgb(140, 0, 255)';
@@ -53,8 +59,15 @@ function darkmode() {
         BtnConfigColor.style.border = 'rgb(140, 0, 255)';
         ColorPlayerConfig1.style.backgroundColor = 'rgb(243, 227 ,255)';
         ColorPlayerConfig2.style.backgroundColor = 'rgb(243, 227 ,255)';
+        ColorPlayerConfig1.style.color = 'black';
+        ColorPlayerConfig2.style.color = 'black';
+        btncolor.style.backgroundColor = 'rgb(140, 0, 255)';
+        btncolor.style.border = 'rgb(71, 0, 129)';
+        btncolor.style.color = 'white';
         overlayColorElement.style.backgroundColor = 'white';
         overlayColorElement.style.color = 'black';
+        symbolcolor.style.color = 'rgb(47, 4, 82)';
+        symbolocolor.style.color = 'rgb(47, 4, 82)';
     }
     isopen = !isopen
 }

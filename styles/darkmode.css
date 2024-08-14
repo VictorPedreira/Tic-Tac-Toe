@@ -1,7 +1,7 @@
 .trilho{
     width: 90px;
     height: 40px;
-    background-color: rgb(44, 1, 80);
+    background-color: rgb(71, 0, 129);
     border-radius: 150px;
     position: relative;
     cursor: pointer;
@@ -26,5 +26,5 @@
 
 .trilho.darkm .indicador {
     left: 50px;
-    background-color: rgb(40, 0, 73);
+    background-color: rgb(71, 0, 129);
 }
