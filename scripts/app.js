@@ -29,6 +29,8 @@ const btncolor = document.getElementById('buttonconfirm');
 const overlayColorElement = document.getElementById('config-overlay');
 const symbolcolor = document.querySelector('.play-symbol');
 const symbolocolor = document.getElementById('obutton');
+const colorTurnElement = document.getElementById('yourturn');
+const winnerNameColorElemente = document.getElementById('winner-name');
 
 const playerConfigOverlayElement = document.getElementById('config-overlay');
 const backdropElement = document.getElementById('backdrop');

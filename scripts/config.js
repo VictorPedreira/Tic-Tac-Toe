@@ -52,6 +52,8 @@ function darkmode() {
         overlayColorElement.style.color = 'white';
         symbolcolor.style.color = 'rgb(140, 0, 255)';
         symbolocolor.style.color = 'rgb(140, 0, 255)';
+        colorTurnElement.style.color = 'white';
+        activePlayerNameElement.style.color = 'rgb(140, 0, 255)';
         
     } else {
         bodyConfigurationElement.style.backgroundColor = 'rgb(247, 239, 247)';
@@ -69,6 +71,8 @@ function darkmode() {
         overlayColorElement.style.color = 'black';
         symbolcolor.style.color = 'rgb(47, 4, 82)';
         symbolocolor.style.color = 'rgb(47, 4, 82)';
+        colorTurnElement.style.color = 'rgb(44, 41, 44)';
+        activePlayerNameElement.style.color = 'rgb(47, 4, 82)';
     }
     isopen = !isopen
 }
